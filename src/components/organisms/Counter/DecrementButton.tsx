@@ -1,5 +1,5 @@
-import { ButtonText } from "../molecules/ButtonText";
-import { useCounter } from "./CounterProvider";
+import { ButtonText } from "../../molecules/ButtonText";
+import { useCounter } from "../../../hooks/useCounter";
 
 export const DecrementButton = () => {
   const { decrement } = useCounter();

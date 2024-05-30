@@ -1,7 +1,7 @@
 import { Text } from "../atoms/Text";
-import { useCounter } from "../organisms/CounterProvider";
-import { DecrementButton } from "../organisms/DecrementButton";
-import { IncrementButton } from "../organisms/IncrementButton";
+import { useCounter } from "../../hooks/useCounter";
+import { DecrementButton } from "../organisms/Counter/DecrementButton";
+import { IncrementButton } from "../organisms/Counter/IncrementButton";
 
 export const CounterView = () => {
   const { index } = useCounter();

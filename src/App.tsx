@@ -1,5 +1,5 @@
 import "./App.css";
-import { CounterProvider } from "./components/organisms/CounterProvider";
+import { CounterProvider } from "./components/organisms/Counter/CounterProvider";
 import { CounterView } from "./components/views/CounterView";
 
 function App() {
