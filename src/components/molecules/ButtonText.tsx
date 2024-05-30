@@ -1,6 +1,6 @@
 import { ReactNode, FC } from "react";
-import { Button } from "../atoms/Button";
-import { Text } from "../atoms/Text";
+import { Button } from "@/components/atoms";
+import { Text } from "@/components/atoms";
 
 interface ButtonTextProps {
   onClick: () => void;

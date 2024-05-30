@@ -1,5 +1,5 @@
-import { ButtonText } from "../../molecules/ButtonText";
-import { useCounter } from "../../../hooks/useCounter";
+import { ButtonText } from "@/components/molecules";
+import { useCounter } from "@/hooks";
 
 export const IncrementButton = () => {
   const { increment } = useCounter();

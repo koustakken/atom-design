@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { CounterContextProps } from "../components/organisms/Counter/CounterContext";
-import { CounterContext } from "../components/organisms/Counter/CounterContext";
+import { CounterContextProps } from "@/components/organisms/Counter/CounterContext";
+import { CounterContext } from "@/components/organisms/Counter/CounterContext";
 
 export const useCounter = (): CounterContextProps => {
   const context = useContext(CounterContext);
